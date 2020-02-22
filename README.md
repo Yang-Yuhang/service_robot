@@ -1,2 +1,2 @@
 # robotics
-the learning of service robot
+the learning of home service robot.
