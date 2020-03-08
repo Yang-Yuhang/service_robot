@@ -5,4 +5,4 @@ the learning of home service robot.
 
 https://github.com/yyh-create/robotics/blob/master/roscore.png
 
-https://github.com/yyh-create/robotics/blob/master/rosrun.png
+
