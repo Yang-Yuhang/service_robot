@@ -1,0 +1,49 @@
+Language model created by QuickLM on Mon Mar 23 08:32:31 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=12
+ngram 3=6
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.5563 ARE-YOU-FROM -0.2218
+-1.5563 COLOR-YOU-LIKE -0.2218
+-1.5563 HOW-OLD-ARE-YOU -0.2218
+-1.5563 INTRODUCE-YOURSELF -0.2218
+-1.5563 SPORT-YOU-LIKE -0.2218
+-1.5563 TELL-A-JOKE -0.2218
+
+\2-grams:
+-1.0792 <s> ARE-YOU-FROM 0.0000
+-1.0792 <s> COLOR-YOU-LIKE 0.0000
+-1.0792 <s> HOW-OLD-ARE-YOU 0.0000
+-1.0792 <s> INTRODUCE-YOURSELF 0.0000
+-1.0792 <s> SPORT-YOU-LIKE 0.0000
+-1.0792 <s> TELL-A-JOKE 0.0000
+-0.3010 ARE-YOU-FROM </s> -0.3010
+-0.3010 COLOR-YOU-LIKE </s> -0.3010
+-0.3010 HOW-OLD-ARE-YOU </s> -0.3010
+-0.3010 INTRODUCE-YOURSELF </s> -0.3010
+-0.3010 SPORT-YOU-LIKE </s> -0.3010
+-0.3010 TELL-A-JOKE </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ARE-YOU-FROM </s>
+-0.3010 <s> COLOR-YOU-LIKE </s>
+-0.3010 <s> HOW-OLD-ARE-YOU </s>
+-0.3010 <s> INTRODUCE-YOURSELF </s>
+-0.3010 <s> SPORT-YOU-LIKE </s>
+-0.3010 <s> TELL-A-JOKE </s>
+
+\end\
