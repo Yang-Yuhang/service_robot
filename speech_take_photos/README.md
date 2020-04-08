@@ -16,15 +16,22 @@
 使用结点：
 
 lm_control  : 加载语音模块包
+
 audio_control  : 进行语音识别
+
 soundplaynode  : 实现语音输出
 
 
 usb_cam  ：调用usb摄像头
+
 take_photo ： 通过接收topic的指定消息实现拍照功能
+
 face_detection  ： 进行人脸检测
+
 camshift  ： 对颜色进行识别和追踪
+
 注：上述结点依赖于ros-kinetic-usb-cam包 
+
                opencv_apps包 ： https://github.com/ros-perception/opencv_apps
 
 talkbot  : 主结点，调用上述结点实现人机语音交互，并完成相关功能
