@@ -10,7 +10,7 @@ scripts文件夹下有2个文件：navibot2.py定义navibot结点调用语音控
 
 maps文件夹下包含2个文件：my_map3.pgm和my_map3.yaml，是机器人扫描生成的地图文件。
 
-sources文件夹下包含3个文件:navi2.corpus是机器人的语音数据库；my_home.world是gazebo生成的环境资源；my_home.png是环境示意图。
+sources文件夹下包含3个文件:navi2.corpus是机器人的语音数据库；my_home.world是gazebo生成的地图；my_home.png是地图的示意图。
 
 navibot结点和navi_point结点的通信：/navi_to_point话题 和 /navigation_feed_point话题
 
