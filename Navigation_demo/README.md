@@ -1,3 +1,19 @@
 这是一个利用gazebo和rviz进行导航仿真的ros包，相关依赖包为turtle机器人包
 
-该目录下
+实现功能：通过语音控制机器人，使其到达预先设定的四个地点。
+
+该目录下包含4个文件夹：
+
+launch文件夹下有2个文件：home_world.launch用于启动gazebo界面并加载环境；navibot2.launch用于启动机器人语音和导航的相关结点。
+
+scripts文件夹下有2个文件：navibot2.py定义navibot结点调用语音控制相关结点，实现与机器人的语音交互；navigation5.py定义了导航结点navi_point，实现自主导航功能。
+
+maps文件夹下包含2个文件：my_map3.pgm和my_map3.yaml，是机器人扫描生成的地图文件。
+
+sources文件夹下包含3个文件:navi2.corpus是机器人的语音数据库；my_home.world是gazebo生成的环境资源；my_home.png是环境示意图。
+
+navibot结点和navi_point结点的通信：/navi_to_point话题 和 /navigation_feed_point话题
+
+（1）navibot结点根据获得的语音命令，向/navi_to_point话题发布相关导航地址命令，navi_point结点订阅该话题使机器人收到命令时自动前往目的地。此时navibot结点等待该条命令完成，不进行任何操作。
+
+（2）navi_point结点完成命令后，向/navigation_feed_point话题发布反馈信息，navibot结点根据反馈信息结束阻断。
