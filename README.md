@@ -8,4 +8,6 @@ speech_interaction包利用pocketsphinx离线语音合成包和ros_sound_play框
 
 speech_take_photo包在语音交流的基础上利用opencv_apps包增设了拍照和颜色识别功能
 
+Navigation包利用语音控制机器人导航，使其前往指定地点。
+
 
