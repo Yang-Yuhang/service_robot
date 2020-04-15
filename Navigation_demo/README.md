@@ -1,1 +1,3 @@
-l这是一个利用gazebo和rviz进行导航仿真的ros包，相关依赖包为turtle机器人包
+这是一个利用gazebo和rviz进行导航仿真的ros包，相关依赖包为turtle机器人包
+
+该目录下
