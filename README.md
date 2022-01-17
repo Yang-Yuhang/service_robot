@@ -10,6 +10,6 @@ speech_take_photo包在语音交流的基础上利用opencv_apps包增设了拍�
 
 Navigation包利用语音控制机器人导航，使其前往指定地点。
 
-finalhomework 整合了speech_take_photo包和navigation包的功能。
+final_homework 整合了speech_take_photo包和navigation包的功能。
 
 
