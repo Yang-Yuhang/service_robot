@@ -1,5 +1,5 @@
 # servce robot
-This is demo of course Robotics Software Engineering.
+This demo shows some code assignments of course Robotics Software Engineering.
 
 
 msg_demo是一个简单的以publish-subscribe的方式传输数据的包
